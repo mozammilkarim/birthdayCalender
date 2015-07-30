@@ -19,19 +19,35 @@
         <div class="intro ">
           <div class="intro__task">
             <p>
-              <strong>Birthday Cal</strong> is a week long calendar!
+              <strong>Birthday Cal</strong> is a weekday calendar!
             </p>
             <p>
-              Render a card for each day of the week.
-              For a given <em>year</em>, figure out whose birthday belongs to which card.
-              Place people's initials in the card according to these rules -
+              You've a list of people. Say -
+            </p>
+            <pre>
+ A = 2/15/1978
+ B = 5/23/1983</pre>
+            <p>
+              User inputs the year as "2015".
+            </p>
+            <p>
+              So, <br />
+              A's birthday in 2015 will fall into Sunday (because 2/15/2015 is Sunday).
+              B's birthday will fall into Saturday (because 5/23/2015 is Saturday)
+            </p>
+            <p>
+              You've to put A in Sunday's box. And B in Saturday's box
+              on the calendar.
+            </p>
+            <p>
+              Process the given json input and place people's initials in the card according to these rules -
             </p>
             <p>
               <ul>
+                <li>If there a box is empty, it should add the day--empty class to the box.</li>
                 <li>Each person must always be rendered as square</li>
-                <li>Use person's initials to label birthdays</li>
                 <li>Order people inside the card based on their age (youngest to oldest)</li>
-                <li>Each square in a card must be of equal size and should fill up as much space in the card as possible</li>
+                <li>Each square in a card must be of equal size and fit them in such a way that every person occupies maximum area.</li>
               </ul>
             </p>
             <p>
@@ -53,7 +69,10 @@
                   Use <code>day--empty</code> class on <code>.cal__day</code> to render empty calendar dates. Use <code>.day__person</code> to render birthdays. See source.
                 </li>
                 <li>
-                  Submit back the completed task as a compressed zip of this git repo with your commits on top. Feel free to share over Dropbox / Email.
+                  Submit back the completed task as a compressed zip of
+                  the git repository with your commits. Feel free to
+                  share over Dropbox / Email. <br /><br />
+                  <strong>Do not</strong> put it up on github.
                 </li>
               </ul>
             </p>
