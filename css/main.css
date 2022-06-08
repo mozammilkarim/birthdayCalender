@@ -161,6 +161,12 @@ body {
     font-size: 14px;
     font-weight: 600;
 }
+.personInitials{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
 
 .day__person:nth-of-type(9n + 1) {
     background: #555e7a;
