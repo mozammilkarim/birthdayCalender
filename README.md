@@ -18,6 +18,7 @@ Try it Yourself!!
 ## Deployment
 
 This project is deployed on GitHub, to use it please follow the link given below.
+![birthdayCalender](https://user-images.githubusercontent.com/47852028/176353461-890ad3e9-ec19-4979-a18f-ee187739d738.gif)
 
 
 ```bash
